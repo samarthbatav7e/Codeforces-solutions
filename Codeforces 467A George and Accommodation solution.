@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int i,j;
+    int t=0;
+    while(n--)
+    {
+        cin>>i>>j;
+        if((j-i)>=2)
+        t++;
+    }
+    cout<<t;
+    return 0;
+}
